@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ABDULGHANI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .car-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+
+        /* Define the subtle pulse animation */
+        @keyframes subtle-pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.01);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* Apply the subtle pulse animation to a class */
+        .animated-title {
+            animation-name: subtle-pulse;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+
+        /* Define the fade animation */
+        @keyframes fade-in-out {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.8;
+            }
+        }
+
+        /* Apply the fade animation to a class */
+        .fade-animated-title {
+            animation-name: fade-in-out;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>dodge challanger 2016</h1>
+    </header>
+    <section id="explanation">
+        <h2 class="animated-title">About the Car</h2>
+        <img src="dodge.jpg" alt="Image of the Car" class="car-image" width=400 height=400>
+        <p>dodge challnger 2016</p>
+    </section>
+    <section id="features">
+        <h2 class="fade-animated-title">Key Features</h2>
+        <ul>
+            <li>dodge challenger comes with 5.7 liters engine or 6.4 hemi engine giving 480 HorsePower</li>
+            <li>It comes with Automatic transmission or Aka(Automatic Gear Box)</li>
+            <li>it can speed up to 299 and it has a hellcat version if you want power</li>
+        </ul>
+    </section>
+    <section id="video">
+        <h2>See the Car in Action 3D</h2>
+        <iframe align=centre width="560" height="315" src="dodge.MP4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <footer>
+        <p>&copy;حقوق الطبع والنشر محفوظة الى عبد الغني زيد عبد الغني لسنة 2024</p>
+    </footer>
+</body>
+</html>
